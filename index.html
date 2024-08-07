@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <title>myCV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="flex justify-center w-full md:justify-end">
+        <ul class="fixed overflow-hidden z-10 text-sm md:text-xl">
+            <li class="list-none my-5 mx-3 text-bold">
+                <a href="#" class="mx-2 hover:text-teal-400">Home</a>
+                <a href="#about" class="mx-2 hover:text-teal-400">About Me</a>
+                <a href="#works" class="mx-2 hover:text-teal-400">Works</a>
+                <a href="#contact" class="mx-2 hover:text-teal-400">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="flex flex-col items-center banner h-2/4 text-bold">
+        <img src="https://user-images.githubusercontent.com/87473932/226229487-d800cfa8-8e2e-4977-b12b-266bce6cca96.jpg" alt="profilepic" class="w-44 md:w-52 rounded-full my-5">
+        <h2 class="text-xl md:text-4xl my-2">Hi! My Name is</h2>
+        <h1 class="text-3xl md:text-6xl my-2">Andhika Ditya Bagaskara D</h1>
+    </header>
+
+    <div class="text-justify">
+        <section class="px-8 py-8 hover:bg-gray-800" id="about">
+            <h1 class="text-2xl md:text-4xl mb-8 text-center text-bold">About Me</h1>
+            <p class="text-l md:text-xl">
+                I am Andhika Ditya Bagaskara D, undergraduate student of the Department of Informatics batch 2020 at Institut Teknologi Sepuluh Nopember.
+                I have interest in technology and graphic design, which makes me want to have a career as a web developer or UI/UX designer.
+            </p>
+        </section>
+    
+        <section class="px-8 py-8 bg-teal-400 hover:bg-teal-600">
+            <h1 class="text-2xl md:text-4xl mb-8 text-center text-bold">Skills</h1>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 place-items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png" class="max-h-32 bg-white p-5 rounded-2xl border-solid border-8 border-teal-400" id="logocpp"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Python_logo_01.svg/800px-Python_logo_01.svg.png" class="max-h-32 bg-white p-5 rounded-2xl border-solid border-8 border-teal-400" id="logopy"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/985px-Laravel.svg.png" class="max-h-32 bg-white p-5 rounded-2xl border-solid border-8 border-teal-400" id="logolaravel"/>
+                <img src="https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png" class="max-h-32 bg-white p-5 rounded-2xl border-solid border-8 border-teal-400" id="logofigma"/>
+                <img src="https://download.logo.wine/logo/Go_(programming_language)/Go_(programming_language)-Logo.wine.png" class="max-h-32 bg-white p-5 rounded-2xl border-solid border-8 border-teal-400" id="logogo"/>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" class="max-h-32 bg-white p-5 rounded-2xl border-solid border-8 border-teal-400" id="logosql"/>
+            </div>
+        </section>
+
+        <section class="px-8 py-8 hover:bg-gray-800">
+            <h1 class="text-2xl md:text-4xl mb-8 text-center text-bold">Education</h1>
+            <div class="flex flex-col md:grid md:grid-cols-[auto_auto] gap-12 md:gap-20 justify-center items-center">
+                <img src="https://upload.wikimedia.org/wikipedia/id/c/c4/Badge_ITS.png" alt="Logo ITS" class="max-h-52 bg-white p-5 rounded-2xl border-solid border-8 border-teal-400" id="logoits" />
+                <div>
+                    <h3 class="text-xl text-bold">Institut Teknologi Sepuluh Nopember (2020 - Now)</h3>
+                    <p class="text-sm md:text-l my-2">Informatics Engineering</p>
+                    <ul class="text-sm md:text-l list-disc">
+                        <li>GPA 3.75</li>
+                        <li>IT Intern at ELECTICS ITS</li>
+                        <li>Coordinator Administration of Algorithm and Programming Lab 2023</li>
+                    </ul>
+                </div>
+                <img src="https://www.dbl.id/uploads/school/13264/849-SMAN_5_SURABAYA.png" alt="Logo SMALA" class="max-h-52 bg-white p-5 rounded-2xl border-solid border-8 border-teal-400" id="logosmala" />
+                <div>
+                    <h3 class="text-xl text-bold">SMA Negeri 5 Surabaya (2017 - 2020)</h3>
+                    <p class="text-sm md:text-l my-2">Mathematics and Science</p>
+                    <ul class="text-sm md:text-l list-disc">
+                        <li>Head of Media Division in SSKI V 2019-2020</li>
+                        <li>Member of PARALELA</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="px-8 py-8 bg-teal-400 hover:bg-teal-600" id="works">
+            <h1 class="text-2xl md:text-4xl mb-8 text-center text-bold">My Works</h1>
+            <div class="flex flex-col justify-center md:grid md:grid-cols-2 gap-4 md:gap-8">
+                <div class="text-center text-bold flex flex-col items-center hover:scale-110">
+                    <img src="https://user-images.githubusercontent.com/87473932/226268762-1e4885c1-a989-4b49-8704-598ebeb6edcc.png" class="min-w-xl" alt="MyTokuList">
+                    <h3 class="text-xl mt-4">MyTokuList [GO API] (2022)</h3>
+                </div>
+                <div class="text-center text-bold flex flex-col items-center hover:scale-110">
+                    <img src="https://user-images.githubusercontent.com/87473932/226270157-bf2d1164-5f10-4fb0-81ba-1668393af727.png" class="min-w-xl" alt="TitiPrint">
+                    <h3 class="text-xl mt-4">TitiPrint [Front-End] (2022)</h3>
+                </div>
+                <div class="text-center text-bold flex flex-col items-center hover:scale-110">
+                    <img src="https://user-images.githubusercontent.com/87473932/226270947-35b2f9d8-b912-41c5-a2e0-dfde251b150f.png" class="min-w-xl" alt="HELP International">
+                    <h3 class="text-xl mt-4">Clustering Countries for HELP International [Data Science] (2022)</h3>
+                </div>
+                <div class="text-center text-bold flex flex-col items-center hover:scale-110">
+                    <img src="https://user-images.githubusercontent.com/87473932/226273725-d2daed55-57d0-4754-bc3f-09243c868a68.png" class="min-w-xl" alt="HobbyLinkIndo">
+                    <h3 class="text-xl mt-4">HobbyLinkIndo [Laravel] (2021)</h3>
+                </div>
+            </div>
+        </section>
+    
+        <section class="px-8 py-8 hover:bg-gray-800" id="contact">
+            <h1 class="text-2xl md:text-4xl mb-8 text-center text-bold">Contact Me</h1>
+            <form action="#" class="text-sm md:text-l grid grid-cols-[auto] justify-center">
+                <div class="my-2">
+                    <h4>Name:</h4>
+                    <input type="text" placeholder="Enter your name . . ." class="w-full py-2 px-3 my-2 text-black rounded-sm">
+                </div>
+                <div class="my-2">
+                    <h4>Email:</h4>
+                    <input type="email" placeholder="Enter your email . . ." class="w-full py-2 px-3 my-2 text-black rounded-sm">
+                </div>
+                <div class="my-2">
+                    <h4>Subject:</h4>
+                    <input type="text" placeholder="Enter the subject . . ." class="w-full py-2 px-3 my-2 text-black rounded-sm">
+                </div>
+                <div class="my-2">
+                    <h4>Message:</h4>
+                    <textarea type="textarea" placeholder="Your message . . ." cols="53" rows="8" class="w-full py-2 px-3 my-2 text-black rounded-sm"></textarea></textarea>
+                </div>
+                <input type="submit" value="Send" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full cursor-pointer">
+            </form>
+        </section>
+    </div>
+
+    <footer class="px-8 py-8">
+        <h4 class="text-md md:text-xl mb-4 text-center">Know more about me:</h4>
+        <div class="flex flex-row justify-center">
+            <a href="https://github.com/Kadigas"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" class="max-h-12 mx-4 bg-white p-1 rounded-full hover:bg-teal-600"></a>
+            <a href="https://www.instagram.com/adbagas05/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="instagram" class="max-h-12 mx-4 bg-white p-1 rounded-full hover:bg-teal-600"></a>
+            <a href="https://www.linkedin.com/in/andhika-ditya-bagaskara-d-5488111a0/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedin" class="max-h-12 mx-4 bg-white p-1 rounded-full hover:bg-teal-600"></a>
+        </div>
+    </footer>
+</body>
+</html>
